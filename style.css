@@ -1,0 +1,188 @@
+.write{
+    background: linear-gradient(90deg, rgb(0, 54, 179),rgb(0, 92, 153),rgb(0, 113, 141));
+    background-clip: text;
+    -webkit-background-clip:  text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.navbar{
+    background: rgb(0, 170, 255);
+}
+.navbar .navbar-nav .nav-link{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.landing{
+    /* background-color: rgb(109, 231, 255); */
+    background: rgb(0, 170, 255);
+}
+.card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+}
+form{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+/* .row{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+} */
+::placeholder{
+    /* padding-left: 20px; */
+    font-size: 15px;
+    color: #6d6d6d;
+}
+textarea{
+    resize: none;
+}
+.form-control{
+    width: 50%;
+    height: 35px;
+    border: none;
+    border-radius: 1px;
+    background-color: #dfdfdf;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.form-groub input{
+    width: 100%;
+    height: 35px;
+    border: none;
+    border-radius: 1px;
+    background-color: #dfdfdf;
+    margin-bottom: 15px;
+    padding-left: 20px;
+}
+.form-groub textarea{
+    width: 100%;
+    height: 80px;
+    border: none;
+    border-radius: 1px;
+    background-color: #dfdfdf;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+.form-control,
+.form-groub input,
+.form-groub textarea:focus{
+    outline: none;
+}
+.submit-button{
+    position: relative;
+    left: 39%;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #ec1d25;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 80px;
+    /* opacity: 0.9; */
+}
+.submit-button:hover{
+    opacity: 1;
+    background-color: #ff0008;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1),
+    0 8px 16px rgba(0, 0, 0, 0.1);
+    transition: 300ms;
+}
+.contact{
+    background: #f8f9fa;
+
+}
+.footer{
+    background: rgb(0, 170, 255);
+}
+/* ------------ footer ---------- */
+.aa a{
+    text-decoration: none;
+    color: rgb(142, 142, 142);
+}
+a{
+  text-decoration: none;
+}
+.bxs-envelope{
+    color: rgb(219, 169, 83);
+    font-size: large;
+}
+.bxl-html5{
+  font-size: 25px;
+  color: rgb(249, 67, 0);
+}
+.bxl-css3{
+  font-size:  25px;
+  color: rgb(27, 118, 255);
+}
+.bxl-bootstrap{
+  font-size:  25px;
+  color: rgb(194, 31, 148);
+}
+.bx-code-block{
+  font-size:  25px;
+  color: rgb(255, 255, 255);
+}
+.icons a{
+  margin: 0 2px;
+
+}
+.insta{
+    background: linear-gradient(to bottom, rgb(4, 42, 192) ,rgb(221, 7, 7) , rgb(235, 166, 39));
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 2.5px;
+    transition: 0.5s;
+    font-size: 25px;
+    color: white;
+}
+.bxl-facebook{
+    background-color: white;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 2.5px ;
+    transition: 0.5s;
+    font-size: 25px;
+    color: rgb(12, 36, 255);
+}
+.bxl-youtube{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 3px;
+    transition: 0.5s;
+    font-size: 25px;
+    color: rgb(255, 0, 0);
+}
+.bxl-whatsapp{
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 2.5px;
+    transition: 0.5s;
+    font-size: 25px;
+    color:rgb(17, 138, 17);
+}
+.bxs-phone-call{
+    color: green;
+    font-size: 20px;
+}
+.piic img{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+.bx-code-block{
+    color: black;
+}
